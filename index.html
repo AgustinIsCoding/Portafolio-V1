@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="./css/index.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com"/>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&Oxygen:wght@300;700&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css"/>
+    <title>Portafolio de Agustín</title>
+</head>
+<body>
+
+    <header class="header">
+        <div class="wrapper">
+            <div class="header-content">
+                <img src="./img/logo.png" alt="Logo" width="70" height="70">
+                <nav class="menu">
+                    <ul>
+                        <li>
+                            <a class="is-active" href="#main">Inicio</a>
+                          </li>
+                          <li>
+                            <a href="#project">Proyectos</a>
+                          </li>
+                          <li>
+                            <a href="#certificated">Certificados</a>
+                          </li>
+                          <li>
+                            <a href="#contact">Contactos</a>
+                          </li>
+                    </ul>
+                </nav>
+                <a download="CVitae Agustín Rodrigues" href="./assets/CV Agustín Rodrigues Romero.pdf" class="button">Currículo Vitae</a>
+            </div>
+        </div>
+    </header>
+    <div class="wrapper">
+
+        <section aria-label="main" class="hero" id="main">
+            <div class="hero-image">
+                <img src="./img/user.jpg" width="338" height="330" alt="">
+            </div>
+            <div class="hero-description">
+                <h1>
+                    <span>Hello World!</span>
+                    <span class="typed"></span>
+                </h1>
+                <p>Soy Agustín Rodrigues, un apasionado programador con una sólida formación en ingeniería informática. A lo largo de mi carrera, he demostrado habilidades destacadas en el desarrollo de software, desde el diseño de arquitecturas sólidas hasta la implementación de soluciones eficientes en una variedad de proyectos. Mi enfoque metódico y capacidad para resolver problemas complejos me han permitido destacarme en entornos de desarrollo.</p>
+                <div class="social">
+                    <a href="https://github.com/AgustinIsCoding" class="button-icon">
+                        <img src="./icons/icon-github.svg" alt="">
+                    </a>
+                    <a href="https://www.instagram.com/agustin_mackelmorexyz/?img_index=1" class="button-icon">
+                        <img src="./icons/icon-instagram.svg" alt="">
+                    </a>
+                    <a href="https://www.linkedin.com/in/agustin-rodrigues-91b16a22b/" class="button-icon">
+                        <img src="./icons/linkedin-icon-1 1.svg" alt="">
+                    </a>
+                </div>
+                <a download="CVitae Agustín Rodrigues" href="./assets/CV Agustín Rodrigues Romero.pdf" class="button">Descargar Currículo</a>
+            </div>
+        </section>
+
+        <div class="project" id="project">
+            <div class="project-image">
+                <img src="./img/helluvaboss.png" alt="">
+            </div>
+            <br>
+            <div class="project-description">
+                <a href="" class="title">
+                    Helluva Boss Landing Page
+                </a>
+                <p>Se creo una landing page para el popular programa web Helluva Boss utilizando conocimientos de HTML, CSS y Javascript. </p>
+                <a href="https://agustiniscoding.github.io/Landing-Page-Helluva-Boss/" class="button">
+                    Ver proyecto
+                </a>
+                <a href="https://github.com/AgustinIsCoding/Landing-Page-Helluva-Boss" class="button">
+                    Código del proyecto
+                </a>
+            </div>
+        </div>
+
+        <section class="card">
+            <div class="card-image">
+                <img src="./img/channels4_profile-logo.jpg" alt="" width="64" height="64">
+            </div>
+            <div class="card-text_top">
+                <p>Me encanto la página, ahora más gente podrá escoger entre sus personajes favoritos.</p>
+            </div>
+            <div class="card-text_bottom">
+                <p>Helluva Boss / Vivienne Medrano</p>
+            </div>
+        </section>
+
+        <section class="certificated" id="certificated">
+            <div class="swiper swiperCertificated">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="./img/Agustín Rodrigues.png" />
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+        <form action="https://formspree.io/f/xvodrydq" method="POST" class="form" id="contact">
+                <div class="form-content">
+                    <h2 class="title">
+                        Contact
+                    </h2>
+                    <p>
+                        If you are interested in involving me in your next project, please
+                        do not hesitate to contact me.
+                    </p>
+                    <label for="form-name">
+                        Full Name
+                        <input required type="text" name="name" id="form-name" placeholder="" />
+                    </label>
+                    <label for="form-email">
+                        Email
+                        <input required type="email" name="email" id="form-email" placeholder=""/>
+                    </label>
+                    <label for="form-message">
+                        Message
+                        <textarea required name="message" id="form-message" placeholder="" cols="30" rows="4"></textarea>
+                    </label>
+                        <button class="button" type="submit">Send Message</button>
+                </div>
+                <a href="mailto:mackelmore4evers@gmail.com" id="send" target="_blank">
+                    mail
+                </a>
+        </form>
+
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="./img/logo.png" width="70" height="70" alt="Logo" />
+                </div>
+                <div class="social">
+                    <a href="https://github.com/AgustinIsCoding" class="button-icon">
+                        <img src="./icons/icon-github.svg" alt="">
+                    </a>
+                    <a href="https://www.instagram.com/agustin_mackelmorexyz/?img_index=1" class="button-icon">
+                        <img src="./icons/icon-instagram.svg" alt="">
+                    </a>
+                    <a href="https://www.linkedin.com/in/agustin-rodrigues-91b16a22b/" class="button-icon">
+                        <img src="./icons/linkedin-icon-1 1.svg" alt="">
+                    </a>
+                </div>
+                <div class="footer-copyright">
+                    <p>Copyright 2023 - All right reserved.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="./src/typed.js"></script>
+    <script src="./src/form.js"></script>
+    <script src="./src/main.js"></script>
+    <script src="./src/swiper-bundle.min.js"></script>
+    <script src="./src/swiper.js"></script>
+
+</body>
+</html>

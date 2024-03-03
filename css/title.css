@@ -1,0 +1,14 @@
+.title {
+    background-color: rgba(60, 0, 128, 0.466);
+    color: var(--primaryColor);
+    align-self: flex-start;
+    font: var(--headLine5);
+    padding-block-start: 4px;
+    padding-block-end: 4px;
+    padding-inline-start: 8px;
+    padding-inline-end: 8px;
+    text-decoration: none;
+    box-shadow: -4px 4px 0 #FFFFFF;
+    border: 2px;
+    border-radius: 10px;
+}

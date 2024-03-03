@@ -1,0 +1,50 @@
+@import "./button.css";
+@import "./button-icon.css";
+@import "./header.css";
+@import "./hero.css";
+@import "./wrapper.css";
+@import "./menu.css";
+@import "./project.css";
+@import "./certificated.css";
+@import "./card.css";
+@import "./social.css";
+@import "./shared.css";
+@import "./footer.css";
+@import "./form.css";
+@import "./title.css";
+
+:root {
+  --fontBase: Poppins, sans-serif;
+  --fontSecondary: Oxygen, sans-serif;
+  --headLine1: bold 95px/154px var(--fontBase);
+  --headLine2: bold 59px/95px var(--fontBase);
+  --headLine3: bold 48px/78px var(--fontBase);
+  --headLine4: bold 34px/55px var(--fontBase);
+  --headLine5: bold 24px/39px var(--fontBase);
+  --coment: 34px/55px var(--fontSecondary);
+  --coment2: 24px/39px var(--fontBase);
+  --body1: 16px/26px var(--fontBase);
+  --body2: 14px/23px var(--fontBase);
+  --card: 16px/26px var(--fontSecondary);
+  --button: bold 14px/23px var(--fontBase);
+  --caption: 12px/19px var(--fontBase);
+  --gradient: background: #E0EAFC;
+  background: -webkit-linear-gradient(to top, #CFDEF3, #E0EAFC);
+  background: linear-gradient(to top, #CFDEF3, #E0EAFC);
+  --primaryColor: #0F0A0A;
+  --secondaryColor: #42a5f5;
+  --tertiaryColor: #FFFFFE;
+  --deleteMargin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: rgba(0, 81, 255, 0.342);
+  min-block-size: 100vh;
+  font: var(--fontBase);
+  color: var(--primaryColor);
+  margin: var(--deleteMargin);
+}
